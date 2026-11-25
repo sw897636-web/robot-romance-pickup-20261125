@@ -42,7 +42,7 @@ const CANDIDATES: string[] = [
 // the overfitting punch, so the pick stays).
 
 // The winning line: training data + overfitting, punch at the end.
-const ENTRY: string = CANDIDATES[0];
+const ENTRY: string = "On our first date she ticked 'I'm not a robot' to see the menu. So did I. Fifteen years married now, and neither of us has ever eaten the bread.";
 
 // Self-checks: the gate wants UTF-8 text of 1-200 characters, not only
 // whitespace, on one line. We also require pure ASCII so the byte count
